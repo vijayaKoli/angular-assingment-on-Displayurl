@@ -1,0 +1,7 @@
+<div>
+    <button (click)="displayText('UPPER')">UPPER</button>
+    <button (click)="displayText('LOWER')">LOWER</button>
+  </div>
+  <div *ngIf="displayedText">
+    <p>{{ displayedText }}</p>
+  </div>
